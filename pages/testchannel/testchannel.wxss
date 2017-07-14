@@ -1,0 +1,83 @@
+.swiper-tab{  
+    width: 100%;  
+    border-bottom: 2rpx solid #777777;  
+    text-align: center;  
+    line-height: 80rpx;
+    background-color: #ffffff;
+}  
+.swiper-tab-list{  font-size: 30rpx;  
+    display: inline-block;  
+    width: 25%;  
+    color: #777777;  
+}  
+.on{ 
+   color: #388E8E;  
+    border-bottom: 5rpx solid #388E8E;
+}  
+.swiper-box{ display: block; 
+             height: 100%; 
+             width: 100%; 
+             overflow: hidden; 
+}  
+.swiper-box view{  
+    text-align: center;  
+}  
+
+
+
+.list{
+  margin-bottom: 80rpx;
+  height: 40rpx;
+  position: relative;
+}
+.imgs image{
+  float: left;
+  width: 80rpx;
+  height: 80rpx;
+  padding: 20rpx 0rpx 0rpx 10rpx;
+ border-radius: 50%;
+}
+.infos{
+  width: 200px;
+  height: 40px;
+  position: relative;
+  font-size: 16px;
+  padding: 40rpx 0rpx 0rpx 0rpx;
+}
+.title{
+  font-size: 15px;
+}
+.intro{
+  width: 200px;
+  height: 10px;
+  color: #888;
+  font-size: 12px;
+  padding: 6rpx 0rpx 0rpx 0rpx;
+}
+.nochannel{
+  font-size: 14px;
+  color: #cccccc;
+  padding: 100px 0 0px 120px;
+  position: absolute;
+}
+.line{
+    height: 1px;
+    width:100%;
+    background-color: #E0E1E2;
+}
+
+.lists{
+  margin-bottom: 80rpx;
+  height: 40rpx;
+  position: relative;
+}
+.listf{
+  margin-bottom: 80rpx;
+  height: 40rpx;
+  position: relative;
+}
+.listt{
+  margin-bottom: 80rpx;
+  height: 40rpx;
+  position: relative;
+}

@@ -1,0 +1,29 @@
+<!--personal.wxml-->
+<page>
+<view class="container">
+<image class="touxiang" src="../../image/小姐姐头像.png"></image>
+<view class="name">小巨鳄</view>
+
+</view>
+
+
+<view class="pindaoliebiao">
+
+<!--文章列表 begin-->
+<template name="items">
+  <view class="line"></view>
+    <navigator url="../../pages/testchannel/testchannel?id={{id}}" hover-class="navigator-hover">
+     <view class="intro"><image src="{{intro}}" class="in-img" background-size="cover" model="scaleToFill"></image></view>
+     <view class="imgs"><image src="{{img}}" class="in-img" background-size="cover" model="scaleToFill"></image></view>
+     <view class="title">{{title}}</view>
+   </navigator>
+  <view class="line"></view>
+</template>
+
+<!--输出列表 begin-->
+<view wx:for="{{newsList}}" class="list">
+  <template is="items" data="{{...item}}" />
+</view>
+
+</view>
+ </page>

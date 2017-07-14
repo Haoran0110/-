@@ -1,0 +1,48 @@
+/* personal.wxss */
+
+.container{
+  float:left;
+  padding: 30px 0 0 30px;
+}
+.name{
+  font-size:20px;
+  padding:50px 0 0 200px;
+  position: absolute;
+}
+.touxiang{
+  width:100px;
+  height:100px;
+  border-radius: 50%;
+}
+.pindaoliebiao{
+  padding: 180px 0 0 0;
+}
+.list{
+  margin-bottom: 80rpx;
+  height: 40rpx;
+  position: relative;
+}
+.imgs image{
+  float: left;
+  width: 63rpx;
+  height: 63rpx;
+  padding: 30rpx 0rpx 0rpx 10rpx;
+}
+.title{
+  width: 200px;
+  height: 40px;
+  position: relative;
+  padding: 49rpx 0rpx 0rpx 100rpx;
+  font-size: 14px;
+}
+.intro image{
+  width: 15px;
+  height: 15px;
+  padding: 53rpx 0rpx 0rpx 700rpx;
+  position: absolute;
+}
+.line{
+    height: 1px;
+    width:100%;
+    background-color: #E0E1E2;
+}

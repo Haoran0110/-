@@ -1,0 +1,91 @@
+<!--index.wxml-->
+
+<!--动态按钮-->
+<view class="send">
+<button type="default" size="default">发动态</button>
+</view>
+
+<!--第一条-->
+<view class="dtshare">
+<!--文章列表 begin-->
+<template name="items">
+    <view class="imgs"><image src="{{img}}" class="in-img" background-size="cover" model="scaleToFill"></image></view>
+    <view class="infos">
+      <view class="name">{{name}}</view>
+      <view class="time">{{time}}</view>
+    </view>
+</template>
+<view wx:for="{{newsList}}" class="list">
+  <template is="items" data="{{...item}}" />
+</view>
+<view class="content">下列路段游客较多，请大家注意安全！以免发生踩踏事故！</view>
+</view>
+<!--地图-->
+<view class="mapshare">
+<map id="map" longitude="113.324520" latitude="23.099994" scale="14" controls="{{controls}}" bindcontroltap="controltap" markers="{{markers}}" bindmarkertap="markertap" polyline="{{polyline}}" bindregionchange="regionchange" show-location style="width: 100%; height: 300px;"></map>
+
+<!--评论 点赞-->
+<view class="pinglun">
+<template name="itemss">
+    <view class="imgss"><image src="{{imgss}}" class="in-img" background-size="cover" model="scaleToFill"></image></view>
+    <view class="infoss">
+      <view class="names">{{names}}</view>
+    </view>
+  
+</template>
+<view wx:for="{{pinglun}}" class="pinglun">
+  <template is="itemss" data="{{...item}}" />
+</view>
+</view>
+<!--分割线-->
+<view class="xian">——————————————————————————</view>
+</view>
+
+
+
+
+
+
+<!--第二条-->
+<view class="dtshares">
+<!--文章列表 begin-->
+<template name="itemsss">
+    <view class="imgs"><image src="{{img}}" class="in-img" background-size="cover" model="scaleToFill"></image></view>
+    <view class="infos">
+      <view class="namea">{{namea}}</view>
+      <view class="time">{{time}}</view>
+    </view>
+</template>
+
+<view wx:for="{{newsLists}}" class="lists">
+  <template is="itemsss" data="{{...item}}" />
+</view>
+
+<view class="contents">今天来到了有"上有天堂下有苏杭"之称的杭州，看到了西湖，好开心啊。</view>
+<view class="westlakes">
+<view class="westlake1"><image src="../../image/westlake1.jpg"></image>
+<image src="../../image/westlake3.jpg"></image>
+</view>
+</view>
+<!--评论 点赞-->
+<view class="pingluna">
+<template name="itemssa">
+    <view class="imgssa"><image src="{{imgssa}}" class="in-img" background-size="cover" model="scaleToFill"></image></view>
+    <view class="infoss">
+      <view class="namesa">{{namesa}}</view>
+    </view>
+  
+</template>
+<view wx:for="{{pingluna}}" class="pingluna">
+  <template is="itemssa" data="{{...item}}" />
+</view>
+</view>
+
+
+</view>
+
+
+
+
+
+

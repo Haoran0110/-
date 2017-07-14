@@ -1,0 +1,18 @@
+/* pages/signin/signin.wxss */
+.icon-foot{
+  width:100px;
+  height: 120px;
+}
+page {
+background-color:white;
+height:100%;
+font-size:32rpx;
+line-height:1.6;
+}
+page {
+-webkit-user-select:none;
+user-select:none;
+width:100%;
+overflow-x:hidden;
+
+}

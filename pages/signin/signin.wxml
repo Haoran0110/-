@@ -1,0 +1,20 @@
+<page>
+
+<view class="container">
+<view class="page-head">
+<view class="page-head-line"></view>
+</view>
+<navigator class="page-foot" hover-class="none" open-type="switchTab" url="/pages/signin/signin">
+<image class="icon-foot" src="../../image/logogo.png"></image>
+</navigator>
+
+<view class="page-body">
+
+<text class="page-body-text">每个微信号中仅需登录一次</text>
+<view class="page-section">
+<button class="page-body-button" type="primary">微信登录</button>
+</view>
+</view>
+
+</view>
+</page>

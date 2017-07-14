@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/history/history",
+    "pages/logs/logs",
+    "pages/dongtai/dongtai",
+    "pages/signin/signin",
+    "pages/testchannel/testchannel",
+    "pages/personal/personal"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#7AC5CD",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "position": "bottom",
+    "color": "#cccccc",
+    "selectedColor": "#7AC5CD",
+    "list": [
+      {
+        "iconPath": "image/频道列表未选中(1).png",
+        "pagePath": "pages/index/index",
+        "text": "频道列表",
+        "selectedIconPath": "image/频道列表选中.png"
+      },
+      {
+        "iconPath": "image/lishiyuyin1.png",
+        "pagePath": "pages/history/history",
+        "text": "历史语音",
+        "selectedIconPath": "image/历史语音选中.png"
+      },
+      {
+        "iconPath": "image/动态.png",
+        "pagePath": "pages/dongtai/dongtai",
+        "text": "动态",
+        "selectedIconPath": "image/动态选中.png"
+      },
+      {
+        "iconPath": "image/普通的用户.png",
+        "pagePath": "pages/personal/personal",
+        "text": "我",
+        "selectedIconPath": "image/用户1.png"
+      }
+    ]
+  }
+}
